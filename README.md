@@ -1,10 +1,12 @@
-Description: Automation of LED corridor lights changes based on set time via python script. The idea behind this project was to elevate the work for the environment control team on the ship since they allegedly had to manually change approximately 1400 cabin lights for passenger that are placed on the front side of the door on the ceiling 3 times a day via some unfinished software. This script simply reads all the IP addresses given from the .txt file that are on the ship and calls asyncrounously PLC functions via web link to change the LED lights. It was created in a way that the user can set up custom times for morning, afternoon and evening for desired changes. They can also be instantly changed manually if needed or just let be automatically for the given time.
+# CLC - Corridor Lights Controller
+**Description:** Automation of LED corridor lights changes based on set time via python script. The idea behind this project was to elevate the work for the environment control team on the ship since they allegedly had to manually change approximately 1400 cabin lights for passenger that are placed on the front side of the door on the ceiling 3 times a day via some unfinished software. This script simply reads all the IP addresses given from the .txt file that are on the ship and calls asyncrounously PLC functions via web link to change the LED lights. It was created in a way that the user can set up custom times for morning, afternoon and evening for desired changes. They can also be instantly changed manually if needed or just let be automatically for the given time.
 
 
+Below are just my personal written version releases  
+---
 Title: Corridor Lights Controller (CLC)  
 Desc: Automated python script for PLC corridor light color changes  
-Current Ver 2.4  
----
+Current Ver 2.4   
 v2.1 - Fixes and enchancments:  
 - code entirely reconstructed and polished
 - added docstrings
@@ -35,4 +37,5 @@ Known issuses:
 To be added:  
 - loading dots, instead of every 15 min time display
 - copying predefined settings files from ip, time and logs on py compile (ambigious)
+
 - option to change light colors (RGB)
