@@ -1,6 +1,9 @@
 # CLC - Corridor Lights Controller v2.4
 **Description:** Automation of LED corridor lights changes based on set time via python script. The idea behind this project was to elevate the work for the environment control team on the ship since they allegedly had to manually change approximately 1400 cabin lights for passenger that are placed on the front side of the door on the ceiling 3 times a day via some unfinished software. This script simply reads all the IP addresses given from the .txt file that are on the ship and calls asyncrounously PLC functions via web link to change the LED lights. It was created in a way that the user can set up custom times for morning, afternoon and evening for desired changes. They can also be instantly changed manually if needed or just let be automatically for the given time.
 
+   
+<img width="578" height="754" alt="clc" src="https://github.com/user-attachments/assets/c39dded2-9ef3-47c2-a5f3-ebe926e82c3c" />
+   
 
 Below are just my personal written version releases  
 ---
@@ -39,4 +42,5 @@ To be added:
 - copying predefined settings files from ip, time and logs on py compile (ambigious)
 
 - option to change light colors (RGB)
+
 
